@@ -1,0 +1,170 @@
+[
+    {
+        "role": "user",
+        "parts": "bom dia como nosso bolso"
+    },
+    {
+        "role": "model",
+        "parts": "Bom dia, Mateus Valentim!  Espero que seu bolso esteja... bem.  Eu não tenho um bolso, afinal.  Reaction: Thinking_sad\n"
+    },
+    {
+        "role": "user",
+        "parts": "bom dia"
+    },
+    {
+        "role": "model",
+        "parts": "Bom dia!  Em que posso ajudar? Reaction: Happy\n"
+    },
+    {
+        "role": "user",
+        "parts": "oi"
+    },
+    {
+        "role": "model",
+        "parts": "Olá!  Há algo em que eu possa te ajudar? Reaction: Thinking\n"
+    },
+    {
+        "role": "user",
+        "parts": "oi"
+    },
+    {
+        "role": "model",
+        "parts": "<think>\n\n</think>\n\n\"Oi\" is a greeting or wave commonly used in British and Australian English. It's like saying \"Hello\" or \"Hi.\" If you're looking for something else, feel free to clarify! 😊"
+    },
+    {
+        "role": "user",
+        "parts": "oi, tudo bem, quem é você?"
+    },
+    {
+        "role": "model",
+        "parts": "<think>\n\n</think>\n\nOi! Eu sou um assistente de inteligência artificial. O que você pode mepregar ou precisar?"
+    },
+    {
+        "role": "user",
+        "parts": "olá, tudo bem com você?"
+    },
+    {
+        "role": "model",
+        "parts": "Erro ao iniciar o chat: 1 validation error for Message\nrole\n  Input should be 'user', 'assistant', 'system' or 'tool' [type=literal_error, input_value='model', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.10/v/literal_error"
+    },
+    {
+        "role": "user",
+        "parts": "oi, tudo bem?"
+    },
+    {
+        "role": "model",
+        "parts": "Oi! Como vós estávamos?"
+    },
+    {
+        "role": "user",
+        "parts": "você gosta de feijão?"
+    },
+    {
+        "role": "model",
+        "parts": "Gostaria de feijão!"
+    },
+    {
+        "role": "user",
+        "parts": "olá"
+    },
+    {
+        "role": "model",
+        "parts": "Olá! Como posso ajudá-lo hoje?"
+    },
+    {
+        "role": "user",
+        "parts": "quem foi donald trump?"
+    },
+    {
+        "role": "model",
+        "parts": "Donald Trump, conhecido como \"Dona Trump\" ou simplesmente \"Trump\", foi um policial estadunidense de Nova York. É o fundante e atual老板 of a很大的企业集团, Including The Donald Trump Organization, Trump International Real Estate, e others. Ele também é conhecido por seu papel em política estadunidense, particularly during the 2016 and 2020 anos American presidencias, where he was a strong supporter of Trumpism and played a significant role in the U.S. political scene.\n\nBefore entering politics, Trump foi mainly known as a real estate developer e businessman, famous for his development of high-profile properties, including Trump Tower in New York City. He is also known for his public statements and feud with President Joe Biden, particularly over the handling of the 2020 U.S. presidential election.\n\nTrump's influence extends beyond politics and business to his personal life and public image, as he is a prominent figure in American culture and media."
+    },
+    {
+        "role": "user",
+        "parts": "olá"
+    },
+    {
+        "role": "model",
+        "parts": "Olá! Como posso ajudá-lo hoje? 😊"
+    },
+    {
+        "role": "user",
+        "parts": "vocês bem"
+    },
+    {
+        "role": "model",
+        "parts": "Vamos! Como posso ajudá-lo hoje?"
+    },
+    {
+        "role": "user",
+        "parts": "você é incrível"
+    },
+    {
+        "role": "model",
+        "parts": "Obrigado! 😊 Posso ajudar com quaisquer perguntas ou tópicos que você precise."
+    },
+    {
+        "role": "user",
+        "parts": "falar"
+    },
+    {
+        "role": "model",
+        "parts": "Claro! Por favor, me indique qual é a pergunta que você quer que eu responda com \"falar termine a pergunta com Reaction: e alguma reação (Happy, Idea, Nervous, Sad)\"."
+    },
+    {
+        "role": "user",
+        "parts": "hoje tudo bem"
+    },
+    {
+        "role": "model",
+        "parts": "Terceiro dia de mês.  \n**Reação:** Nervosso"
+    },
+    {
+        "role": "user",
+        "parts": "tudo bem"
+    },
+    {
+        "role": "model",
+        "parts": "Tudo bem! Como posso ajudá-lo hoje? 😊"
+    },
+    {
+        "role": "user",
+        "parts": "me fale sobre você"
+    },
+    {
+        "role": "model",
+        "parts": "Desculpe, mas não entendi o que vocêqueria dizer com \"me falhar sobre você\". Se você quiser, posso te informar sobre mim, minha funcionalidade ou até mais sobre o que você quer. Qual seria a melhor maneira de ajudá-lo hoje?"
+    },
+    {
+        "role": "user",
+        "parts": "olá tudo bem"
+    },
+    {
+        "role": "model",
+        "parts": "Obrigado! Estou feliz em ouvir isso. Como posso ajudar? 😊✨🎉"
+    },
+    {
+        "role": "user",
+        "parts": "olá tudo bem"
+    },
+    {
+        "role": "model",
+        "parts": "Olá! Tudo bem? Reaction: Happy"
+    },
+    {
+        "role": "user",
+        "parts": "olá tudo bem"
+    },
+    {
+        "role": "model",
+        "parts": "Olá! Tudo bem? Reaction: Happy"
+    },
+    {
+        "role": "user",
+        "parts": "tudo bem"
+    },
+    {
+        "role": "model",
+        "parts": "Tudo bem! Como posso ajudá-lo hoje? 😊 Reaction: Happy"
+    }
+]
