@@ -3,3 +3,5 @@ venv/
 
 # Ignorar pasta do Vosk
 Vosk/
+
+dados.txt
