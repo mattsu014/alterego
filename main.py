@@ -7,7 +7,7 @@ from services.voice_service import VoiceService
 from services.command_service import CommandService
 from services.chat_controller import ChatController
 
-# IA (ESCOLHA AQUI 👇)
+# IA
 # from services.ollama_service import OllamaService
 from services.gemini_service import GeminiService
 
@@ -26,7 +26,7 @@ def main(page: ft.Page):
     page.title = "AlterEgo"
 
     # ============================
-    # 🔥 ESCOLHA DA IA AQUI
+    # modelo de IA
     # ============================
     # ai_service = AIService(provider=OllamaService())
     ai_service = AIService(provider=GeminiService())
@@ -121,7 +121,7 @@ def main(page: ft.Page):
 
             txt.value = result["text"]
 
-            # 🎭 troca sprite
+            # troca sprite
             reaction = result["reaction"]
             path = f"sprites/{reaction}.png"
 
