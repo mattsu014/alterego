@@ -1,14 +1,16 @@
-#import subprocess
-
-# def voice_robot(text):
-#    subprocess.run(['espeak-ng', '-v', 'pt-br', text])
-
 from gtts import gTTS
 import os
 
 def voice_robot(texto, idioma="pt-br"):
-    tts = gTTS(text=texto, lang=idioma, slow=False)
-    tts.save("output.mp3")
-    os.system("mpg321 output.mp3")  # Reproduz o arquivo de áudio (necessita do mpg321 instalado)
+    try:
+        tts = gTTS(text=texto, lang=idioma, slow=False)
+        tts.save("output.mp3")
 
-falar("Olá, mundo! O meu nome é MetaEgo")
+        # usa mpg123 (compatível com Arch)
+        result = os.system("mpg123 output.mp3")
+
+        if result != 0:
+            print("⚠️ mpg123 não funcionou")
+
+    except Exception as e:
+        print("Erro na voz:", e)
